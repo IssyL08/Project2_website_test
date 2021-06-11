@@ -13,7 +13,7 @@ var svg2 = d3.select("#area2")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("data.csv", function(data) {
+d3.csv("Resources/data.csv", function(data) {
 
   // X axis: scale and draw:
   var x = d3.scaleLinear()

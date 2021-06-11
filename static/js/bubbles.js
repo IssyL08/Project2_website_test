@@ -13,7 +13,7 @@
             "translate(" + margin.left + "," + margin.top + ")");
   
   //Read the data
-  d3.csv("data.csv", function(data) {
+  d3.csv("Resources/data.csv", function(data) {
   
     // Add X axis
     var x = d3.scaleLinear()
